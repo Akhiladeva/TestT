@@ -71,26 +71,26 @@ ThemeData themData = ThemeData(
 class CustomTextStyle {
 
   static TextStyle subtitle3(BuildContext context) {
-    return Theme.of(context).textTheme.subtitle1.copyWith(
+    return Theme.of(context).textTheme.subtitle1!.copyWith(
         fontFamily: fontSofia, fontWeight: FontWeight.w400, fontSize: 15);
   }
   static TextStyle subtitle4(BuildContext context) {
-    return Theme.of(context).textTheme.subtitle1.copyWith(
+    return Theme.of(context).textTheme.subtitle1!.copyWith(
         fontFamily: fontSofia, fontWeight: FontWeight.w400, fontSize: 13);
   }
 
   static TextStyle subtext1(BuildContext context) {
-    return Theme.of(context).textTheme.headline1.copyWith(
+    return Theme.of(context).textTheme.headline1!.copyWith(
         fontFamily: fontSofia, fontWeight: FontWeight.w500, fontSize: 20);
   }
 
   static TextStyle subtext2(BuildContext context) {
-    return Theme.of(context).textTheme.headline1.copyWith(
+    return Theme.of(context).textTheme.headline1!.copyWith(
         fontFamily: fontSofia, fontWeight: FontWeight.w600, fontSize: 20);
   }
 
   static TextStyle subtext3(BuildContext context) {
-    return Theme.of(context).textTheme.headline1.copyWith(
+    return Theme.of(context).textTheme.headline1!.copyWith(
         fontFamily: fontSofia, fontWeight: FontWeight.w500, fontSize: 15);
   }
 

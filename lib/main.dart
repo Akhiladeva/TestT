@@ -161,7 +161,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+//datadda
 class MyHomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -177,8 +177,7 @@ class MyHomeWidget extends StatelessWidget {
           children: <Widget>[
             Text(
               "Transporter",
-              style: style ??CustomTextStyle.subtitle4(context)
-            ),
+           ),
           ],
         ),
       ),
